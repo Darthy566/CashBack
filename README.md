@@ -2,48 +2,48 @@
 
 A comprehensive Flutter application designed to help users manage their personal finances, track transactions, set financial goals, and simulate investment scenarios. Built with a clean, intuitive interface and robust local database storage.
 
-## 📱 Features
+## Features
 
-### 🔐 User Authentication
+### User Authentication
 - Secure user registration and login
 - Profile management with editable user information
 - Welcome screen with app introduction
 
-### 💰 Transaction Management
+### Transaction Management
 - Add, view, edit, and delete financial transactions
 - Support for income and expense tracking
 - Transaction categorization and detailed records
 - Choose between different transaction types
 
-### 🎯 Goal Management
+### Goal Management
 - Set and track financial goals
 - Goal progress monitoring
 - Goal history and completion tracking
 - Add, edit, and manage multiple goals simultaneously
 
-### 📊 Investment Simulator
+### Investment Simulator
 - Create investment simulation scenarios
 - Interactive charts showing projected growth
 - Support for CAGR (Compound Annual Growth Rate) calculations
 - Multiple simulation management with swipe navigation
 - Detailed investment parameters (initial investment, monthly contributions, time periods)
 
-### 💡 Savings Recommendations
+### Savings Recommendations
 - Personalized savings suggestions based on user data
 - AI-powered recommendations using financial datasets
 - Data-driven insights for better financial planning
 
-### 📈 Personal Finance Dashboard
+### Personal Finance Dashboard
 - Comprehensive financial overview
 - Transaction summaries and analytics
 - Visual representations of financial data
 
-### ℹ️ Information Hub
+### Information Hub
 - Educational content about personal finance
 - Tips and best practices
 - Financial literacy resources
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Framework**: Flutter
 - **Language**: Dart
@@ -54,7 +54,7 @@ A comprehensive Flutter application designed to help users manage their personal
 - **Data Processing**: CSV parsing for financial datasets
 - **Financial Calculations**: Custom algorithms for investment projections
 
-## 📦 Dependencies
+## Dependencies
 
 ```yaml
 dependencies:
@@ -69,7 +69,7 @@ dependencies:
   csv: ^5.1.1
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Flutter SDK (version 3.4.0 or higher)
@@ -107,7 +107,7 @@ flutter build apk --release
 flutter build ios --release
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 lib/
@@ -134,7 +134,7 @@ assets/
 └── synthetic_personal_finance_dataset.csv # Financial dataset for AI
 ```
 
-## 🎨 Design System
+## Design System
 
 ### Colors
 - **Primary Green**: `#4CAF50` - Main brand color
@@ -152,7 +152,7 @@ assets/
 - Consistent spacing and padding
 - Responsive design for different screen sizes
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### Users Table
 - User authentication and profile information
@@ -173,7 +173,7 @@ assets/
 - Projected values and calculations
 - User-specific scenarios
 
-## 🔧 Key Features Implementation
+## Key Features Implementation
 
 ### Investment Calculations
 The app implements compound interest calculations using the formula:
@@ -191,14 +191,14 @@ Future Value = Initial Investment × (1 + CAGR)^years + Monthly Contribution × 
 - Secure data storage with proper relationships
 - Efficient querying and data management
 
-## 🤖 AI-Powered Features
+## AI-Powered Features
 
 ### Savings Recommendations
 - Utilizes synthetic financial datasets
 - Machine learning-based suggestions
 - Personalized recommendations based on user behavior
 
-## 📱 Screenshots & UI Flow
+## Screenshots & UI Flow
 
 1. **Welcome Screen** - App introduction and branding
 2. **Authentication** - Login/Register flow
@@ -208,25 +208,14 @@ Future Value = Initial Investment × (1 + CAGR)^years + Monthly Contribution × 
 6. **Investment Simulator** - Interactive investment projections
 7. **Profile Management** - User settings and information
 
-## 🧪 Testing
+## Testing
 
 Run the test suite:
 ```bash
 flutter test
 ```
 
-## 📋 TODO & Future Enhancements
-
-- [ ] Cloud backup and synchronization
-- [ ] Multi-currency support
-- [ ] Advanced analytics and reporting
-- [ ] Budget planning features
-- [ ] Integration with financial APIs
-- [ ] Push notifications for goals and reminders
-- [ ] Dark mode theme
-- [ ] Biometric authentication
-
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -234,20 +223,3 @@ flutter test
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- **Darthy566** - *Initial work and development*
-
-## 🙏 Acknowledgments
-
-- Flutter team for the amazing framework
-- Material Design for UI inspiration
-- Open source community for various packages and tools
-
----
-
-**Made with ❤️ using Flutter**
